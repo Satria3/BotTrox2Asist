@@ -9,15 +9,15 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = SATRIA.LINE()
-cl.login(token="ErLJXQCmlo6RGJnsrNs2.o8LSrfCelHJhhggYpY3ECG.UPHqDhRXMxSVsSyaCtgL5uf4pbNWuMyiVmt2A/OO6tY=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = SATRIA.LINE()
-ki.login(token="ErTfv1jYA3WfsJ7G3ZG5.hSHvpJH1bE2GB8InsSg0vq.kcoMlnCZ1mqlXL6Q1gGySzYopR1wGgB2NQA769WdvjI=")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = SATRIA.LINE()
-ki2.login(token="ErxCmx9Dy3zOE1BXbvjd.nI0+pkrzsIaJT928xZbUBq.0bECd//nwdYlFV/4Tpmo7KLHk7z3rGG/1lskkdCyjiU=")
+ki2.login(qr=True)
 ki2.loginResult()
 
 print "🇲🇨⊰์◉⊱B❂TT❂X B❂T⊰์◉⊱🇲🇨\nSELAMAT MENGGUNAKAN"
@@ -2311,7 +2311,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐Koplaxs⭐⭐👈\n\n™By ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐Koplaxs⭐⭐??\n\n™By ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
