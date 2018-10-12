@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import SATRIA
+from SATRIA.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 from threading import Thread
@@ -9,15 +9,15 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-cl = LINETCR.LINE()
+cl = SATRIA.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
+ki = SATRIA.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-ki2 = LINETCR.LINE()
+ki2 = SATRIA.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 
